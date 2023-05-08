@@ -1,0 +1,8 @@
+Here are the instruction to use this application. It's really very simple application with a little and easy documentation. I am going to mention instructions below,
+
+# First of all, you have to create a a database named 'words';
+# Second, Two tables have to be created into this database nemed 'addword' and 'users'.
+# Third, users table must have four columns. And the names are respectively 'id', 'email', 'password', 'status'. You have to create an index on 'status' column and the default value would be '1'.
+# Forth, 'addword' table also must have four columns. And the names are respectively 'id', user_id', 'word', 'meaning'. 
+
+Note: to make every query works properly we have to use the same names those are mentioned above respectively to create database, tables, and columns.

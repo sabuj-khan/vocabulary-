@@ -1,0 +1,108 @@
+#basic-voca {
+    margin: 0;
+    background-color: #f1f2f6;
+}
+
+
+#vocabulary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+.header-area h2 {
+    color: #b71540;
+    font-weight: 700;
+}
+.project {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px 3px #7f8c8d;   
+}
+.project .form-area h4 {
+    color: #7f8c8d;
+    font-weight: 600;
+}
+.project .form-area label {
+    font-size: 17px;
+    font-weight: 500;
+}
+.project .form-area input[type='submit'] {
+    color: #fff;
+    background-color: #b71540;
+    padding: 7px 25px;
+    border: 1px solid #b71540;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+.header-area .nav-area p a {
+    text-decoration: none;
+    color: #b71540;
+    font-weight: 700;
+    font-size: 17px;
+}
+.form-area .status {
+    color: #b71540;
+    font-weight: 500;
+}
+
+
+
+/* Word Page styling */
+
+.left-area {
+    width: 20%;
+    background-color: #a4b0be;
+    min-height: 100vh;
+    float: left;
+}
+.right-area {
+    overflow: hidden;
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manu-area {
+    margin-top: 100px;
+}
+.manu-area .main-menu li .nav-link{
+    color: #b71540;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 3px 20px;
+}
+.manu-area .title {
+    color: #f1f2f6;
+    padding: 3px 20px;
+    font-size: 27px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.top-head {
+    overflow: hidden;
+}
+.option-area select {
+    padding: 5px;
+    width: 50%;
+}
+.option-area {
+    float: left;
+    width: 50%;
+}
+.search-area{
+    overflow: hidden;
+    float: right;
+    width: 49%;
+    margin-left: 1%;
+    text-align: end;
+}
+.search-area input {
+    padding: 5px;
+}
